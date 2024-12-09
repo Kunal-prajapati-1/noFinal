@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 import VegetablesPage from "./components/Buyers/VegetablesPage";
 import CartComponent from "./components/CartComponent";
 import { useDispatch, useSelector } from "react-redux";
-import FarmerPage from "./components/Farmer/farmerPage";
+import FarmerPage from "./components/Farmer/FarmerPage";
 
 function App() {
   const dispatch = useDispatch();
