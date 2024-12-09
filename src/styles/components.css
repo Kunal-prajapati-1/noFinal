@@ -1,0 +1,122 @@
+/* Navbar Styles */
+.MuiAppBar-root {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.MuiToolbar-root {
+  padding: 0.5rem 2rem !important;
+}
+
+.MuiButton-root {
+  font-weight: 600 !important;
+  text-transform: none !important;
+  padding: 6px 16px !important;
+  margin-left: 1rem !important;
+}
+
+/* Content Styles */
+.feature-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.marquee-container {
+  background: linear-gradient(90deg, #2E7D32 0%, #43A047 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+/* Dialog Styles */
+.MuiDialog-paper {
+  border-radius: 12px !important;
+  padding: 1rem !important;
+}
+
+.MuiDialogTitle-root {
+  background-color: #f5f5f5;
+  padding: 16px 24px !important;
+  color: #2E7D32 !important;
+}
+
+.MuiDialogContent-root {
+  padding: 20px 24px !important;
+}
+
+/* Carousel Styles */
+.slick-dots {
+  bottom: 25px;
+}
+
+.slick-dots li button:before {
+  color: white;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+  opacity: 1;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev {
+  left: 15px;
+}
+
+.slick-next {
+  right: 15px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 40px;
+}
+
+/* Toast Notifications */
+.Toastify__toast {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(to right, #16a34a, #15803d);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(to right, #ef4444, #dc2626);
+  color: white;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.Toastify__close-button {
+  opacity: 0.7;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+.Toastify__toast-icon {
+  font-size: 1.25rem;
+}
